@@ -20,7 +20,7 @@ Note:
 For comprehensive instructions on how to install and run project, please, refer to the following repo, which was used as a skeleton for this project: https://github.com/udacity/CarND-Extended-Kalman-Filter-Project
 
  
-#### Files in the Github src Folder
+### Files in the Github src Folder
 
 
 main.cpp - Communicates with the Term 2 Simulator receiving data measurements, calls a function to run the Kalman filter, calls a function to calculate RMSE
@@ -32,7 +32,7 @@ kalman_filter.cpp - Defines the predict function, the update function for lidar,
 tools.cpp - Function to calculate RMSE and the Jacobian matrix
 
 
-#### Basic Build instructions
+### Basic Build instructions
 
     $ mkdir build && cd build
     $ cmake .. && make
@@ -40,7 +40,7 @@ tools.cpp - Function to calculate RMSE and the Jacobian matrix
 
 Or use the `$ bash build_and_run.sh` provided to execute the above commands.
 
-#### Final results after Filter:
+### Final results after Filter:
 
 
 On the simulator: 
