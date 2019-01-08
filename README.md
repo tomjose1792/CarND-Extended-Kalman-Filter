@@ -21,6 +21,7 @@ For comprehensive instructions on how to install and run project, please, refer 
  
 ####Files in the Github src Folder
 
+
 main.cpp - Communicates with the Term 2 Simulator receiving data measurements, calls a function to run the Kalman filter, calls a function to calculate RMSE
 
 FusionEKF.cpp - Initializes the filter, calls the predict function, calls the update function
@@ -30,6 +31,7 @@ kalman_filter.cpp - Defines the predict function, the update function for lidar,
 tools.cpp - Function to calculate RMSE and the Jacobian matrix
 
 ####Basic Build instructions
+
     $ mkdir build && cd build
     $ cmake .. && make
     $ ./ExtendedKF
@@ -37,6 +39,7 @@ tools.cpp - Function to calculate RMSE and the Jacobian matrix
 Or use the `$ bash build_and_run.sh` provided to execute the above commands.
 
 ###Final results after Filter:
+
 
 On the simulator: 
 The red circles are LIDAR measurements and blue circles are RADAR measurements data. The green triangles are the estimated markers. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
